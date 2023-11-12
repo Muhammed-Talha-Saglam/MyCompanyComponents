@@ -85,7 +85,7 @@ class MyDialogBox(
 
         /**
          * To hide system bottom navigation, you can customize to your needs or remove.
-//         */
+         */
 //        val windowInsetsController = WindowCompat.getInsetsController(alertD.window!!, alertD.window!!.decorView)
 //        alertD.window!!.decorView.setOnApplyWindowInsetsListener { v, insets ->
 //            if (windowInsetsController != null) {

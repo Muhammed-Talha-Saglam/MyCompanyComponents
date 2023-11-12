@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         val dialogFragment = MyDialogBox(
             title = "This is Title",
             info = "This is info",
-            buttonMode = MyDialogBox.InfoDialogButtonMode.None,
+            buttonMode = MyDialogBox.InfoDialogButtonMode.Both,
             nameBtnCancel = "No",
             nameBtnConfirm = "Yes",
             btnListener = object: MyDialogBox.ButtonClickListener {
